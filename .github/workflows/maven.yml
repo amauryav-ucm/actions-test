@@ -3,7 +3,7 @@ name: Java CI
 on:
   push:
     branches:
-      - main
+      - master
       - develop
       - dev-*  # Esto ejecutará el CI en cualquier rama que empiece con "dev/"
   pull_request:
